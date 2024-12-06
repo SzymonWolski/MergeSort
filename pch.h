@@ -1,3 +1,10 @@
+//
+// pch.h
+//
+
+#pragma once
+
+#include "gtest/gtest.h"
 #ifndef MERGESORT_H
 #define MERGESORT_H
 

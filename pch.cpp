@@ -1,4 +1,9 @@
-#include "MergeSort.h"
+//
+// pch.cpp
+//
+
+#include "pch.h"
+
 
 void MergeSort::sort(std::vector<int>& arr) {
     mergeSort(arr, 0, arr.size() - 1);
