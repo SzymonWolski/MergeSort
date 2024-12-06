@@ -1,0 +1,164 @@
+\doxysection{plik1 doxyegn.\+cpp File Reference}
+\label{plik1_01doxyegn_8cpp}\index{plik1 doxyegn.cpp@{plik1 doxyegn.cpp}}
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include "{}Merge\+Sort.\+h"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include "{}gtest/gtest.\+h"{}}\newline
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \textbf{ Merge\+Sort}
+\begin{DoxyCompactList}\small\item\em Klasa implementująca algorytm sortowania przez scalanie. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \textbf{ MERGESORT\+\_\+H}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \textbf{ main} ()
+\begin{DoxyCompactList}\small\item\em Punkt wejścia do programu \doxyref{Merge\+Sort}{p.}{class_merge_sort}. Demonstracja użycia klasy \doxyref{Merge\+Sort}{p.}{class_merge_sort} do sortowania tablicy liczb całkowitych. \end{DoxyCompactList}\item 
+int \textbf{ main} (int argc, char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Punkt wejścia do uruchamiania testów Google Test. \end{DoxyCompactList}\item 
+\textbf{ TEST} (Merge\+Sort\+Test, Already\+Sorted)
+\begin{DoxyCompactList}\small\item\em Testuje klasę \doxyref{Merge\+Sort}{p.}{class_merge_sort} z już posortowanymi danymi. \end{DoxyCompactList}\item 
+\textbf{ TEST} (Merge\+Sort\+Test, Reverse\+Sorted)
+\begin{DoxyCompactList}\small\item\em Testuje klasę \doxyref{Merge\+Sort}{p.}{class_merge_sort} z danymi posortowanymi w odwrotnej kolejności. \end{DoxyCompactList}\item 
+\textbf{ TEST} (Merge\+Sort\+Test, Random\+Array)
+\begin{DoxyCompactList}\small\item\em Testuje klasę \doxyref{Merge\+Sort}{p.}{class_merge_sort} z losowymi danymi. \end{DoxyCompactList}\item 
+\textbf{ TEST} (Merge\+Sort\+Test, Negative\+Numbers)
+\begin{DoxyCompactList}\small\item\em Testuje klasę \doxyref{Merge\+Sort}{p.}{class_merge_sort} z liczbami ujemnymi. \end{DoxyCompactList}\item 
+\textbf{ TEST} (Merge\+Sort\+Test, Mixed\+Numbers)
+\begin{DoxyCompactList}\small\item\em Testuje klasę \doxyref{Merge\+Sort}{p.}{class_merge_sort} z mieszanką liczb dodatnich i ujemnych. \end{DoxyCompactList}\item 
+\textbf{ TEST} (Merge\+Sort\+Test, Empty\+Array)
+\begin{DoxyCompactList}\small\item\em Testuje klasę \doxyref{Merge\+Sort}{p.}{class_merge_sort} z pustą tablicą. \end{DoxyCompactList}\item 
+\textbf{ TEST} (Merge\+Sort\+Test, Single\+Element)
+\begin{DoxyCompactList}\small\item\em Testuje klasę \doxyref{Merge\+Sort}{p.}{class_merge_sort} z pojedynczym elementem. \end{DoxyCompactList}\item 
+\textbf{ TEST} (Merge\+Sort\+Test, Duplicates)
+\begin{DoxyCompactList}\small\item\em Testuje klasę \doxyref{Merge\+Sort}{p.}{class_merge_sort} z duplikatami wartości. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\index{plik1 doxyegn.cpp@{plik1 doxyegn.cpp}!MERGESORT\_H@{MERGESORT\_H}}
+\index{MERGESORT\_H@{MERGESORT\_H}!plik1 doxyegn.cpp@{plik1 doxyegn.cpp}}
+\doxysubsubsection{MERGESORT\_H}
+{\footnotesize\ttfamily \label{plik1_01doxyegn_8cpp_a8cdee15a9cd1e1ec138b814f65e34aec} 
+\#define MERGESORT\+\_\+H}
+
+
+
+\doxysubsection{Function Documentation}
+\index{plik1 doxyegn.cpp@{plik1 doxyegn.cpp}!main@{main}}
+\index{main@{main}!plik1 doxyegn.cpp@{plik1 doxyegn.cpp}}
+\doxysubsubsection{main()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{plik1_01doxyegn_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+int main (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Punkt wejścia do programu \doxyref{Merge\+Sort}{p.}{class_merge_sort}. Demonstracja użycia klasy \doxyref{Merge\+Sort}{p.}{class_merge_sort} do sortowania tablicy liczb całkowitych. 
+
+\begin{DoxyReturn}{Returns}
+0 jeśli program zakończył się pomyślnie. 
+\end{DoxyReturn}
+\index{plik1 doxyegn.cpp@{plik1 doxyegn.cpp}!main@{main}}
+\index{main@{main}!plik1 doxyegn.cpp@{plik1 doxyegn.cpp}}
+\doxysubsubsection{main()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{plik1_01doxyegn_8cpp_a3c04138a5bfe5d72780bb7e82a18e627} 
+int main (\begin{DoxyParamCaption}\item[{int}]{argc}{, }\item[{char $\ast$$\ast$}]{argv}{}\end{DoxyParamCaption})}
+
+
+
+Punkt wejścia do uruchamiania testów Google Test. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & Liczba argumentów wiersza poleceń. \\
+\hline
+{\em argv} & Tablica argumentów wiersza poleceń. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Wynik uruchamiania testów. 
+\end{DoxyReturn}
+\index{plik1 doxyegn.cpp@{plik1 doxyegn.cpp}!TEST@{TEST}}
+\index{TEST@{TEST}!plik1 doxyegn.cpp@{plik1 doxyegn.cpp}}
+\doxysubsubsection{TEST()\hspace{0.1cm}{\footnotesize\ttfamily [1/8]}}
+{\footnotesize\ttfamily \label{plik1_01doxyegn_8cpp_a4652c1b2d344ec9313e5b70472a9deac} 
+TEST (\begin{DoxyParamCaption}\item[{Merge\+Sort\+Test}]{}{, }\item[{Already\+Sorted}]{}{}\end{DoxyParamCaption})}
+
+
+
+Testuje klasę \doxyref{Merge\+Sort}{p.}{class_merge_sort} z już posortowanymi danymi. 
+
+\index{plik1 doxyegn.cpp@{plik1 doxyegn.cpp}!TEST@{TEST}}
+\index{TEST@{TEST}!plik1 doxyegn.cpp@{plik1 doxyegn.cpp}}
+\doxysubsubsection{TEST()\hspace{0.1cm}{\footnotesize\ttfamily [2/8]}}
+{\footnotesize\ttfamily \label{plik1_01doxyegn_8cpp_ab887b6013a067f65f2afcef5ef706f8a} 
+TEST (\begin{DoxyParamCaption}\item[{Merge\+Sort\+Test}]{}{, }\item[{Duplicates}]{}{}\end{DoxyParamCaption})}
+
+
+
+Testuje klasę \doxyref{Merge\+Sort}{p.}{class_merge_sort} z duplikatami wartości. 
+
+\index{plik1 doxyegn.cpp@{plik1 doxyegn.cpp}!TEST@{TEST}}
+\index{TEST@{TEST}!plik1 doxyegn.cpp@{plik1 doxyegn.cpp}}
+\doxysubsubsection{TEST()\hspace{0.1cm}{\footnotesize\ttfamily [3/8]}}
+{\footnotesize\ttfamily \label{plik1_01doxyegn_8cpp_a3313a817fb582e0582543a376b761ce5} 
+TEST (\begin{DoxyParamCaption}\item[{Merge\+Sort\+Test}]{}{, }\item[{Empty\+Array}]{}{}\end{DoxyParamCaption})}
+
+
+
+Testuje klasę \doxyref{Merge\+Sort}{p.}{class_merge_sort} z pustą tablicą. 
+
+\index{plik1 doxyegn.cpp@{plik1 doxyegn.cpp}!TEST@{TEST}}
+\index{TEST@{TEST}!plik1 doxyegn.cpp@{plik1 doxyegn.cpp}}
+\doxysubsubsection{TEST()\hspace{0.1cm}{\footnotesize\ttfamily [4/8]}}
+{\footnotesize\ttfamily \label{plik1_01doxyegn_8cpp_a6135a7ba82d5a0567033dbc06fcd7ae1} 
+TEST (\begin{DoxyParamCaption}\item[{Merge\+Sort\+Test}]{}{, }\item[{Mixed\+Numbers}]{}{}\end{DoxyParamCaption})}
+
+
+
+Testuje klasę \doxyref{Merge\+Sort}{p.}{class_merge_sort} z mieszanką liczb dodatnich i ujemnych. 
+
+\index{plik1 doxyegn.cpp@{plik1 doxyegn.cpp}!TEST@{TEST}}
+\index{TEST@{TEST}!plik1 doxyegn.cpp@{plik1 doxyegn.cpp}}
+\doxysubsubsection{TEST()\hspace{0.1cm}{\footnotesize\ttfamily [5/8]}}
+{\footnotesize\ttfamily \label{plik1_01doxyegn_8cpp_aa06bb5ca6c638b8a3bb5aa0035a34b9c} 
+TEST (\begin{DoxyParamCaption}\item[{Merge\+Sort\+Test}]{}{, }\item[{Negative\+Numbers}]{}{}\end{DoxyParamCaption})}
+
+
+
+Testuje klasę \doxyref{Merge\+Sort}{p.}{class_merge_sort} z liczbami ujemnymi. 
+
+\index{plik1 doxyegn.cpp@{plik1 doxyegn.cpp}!TEST@{TEST}}
+\index{TEST@{TEST}!plik1 doxyegn.cpp@{plik1 doxyegn.cpp}}
+\doxysubsubsection{TEST()\hspace{0.1cm}{\footnotesize\ttfamily [6/8]}}
+{\footnotesize\ttfamily \label{plik1_01doxyegn_8cpp_a550a23a4653d03b63b45fdcbbb4851bf} 
+TEST (\begin{DoxyParamCaption}\item[{Merge\+Sort\+Test}]{}{, }\item[{Random\+Array}]{}{}\end{DoxyParamCaption})}
+
+
+
+Testuje klasę \doxyref{Merge\+Sort}{p.}{class_merge_sort} z losowymi danymi. 
+
+\index{plik1 doxyegn.cpp@{plik1 doxyegn.cpp}!TEST@{TEST}}
+\index{TEST@{TEST}!plik1 doxyegn.cpp@{plik1 doxyegn.cpp}}
+\doxysubsubsection{TEST()\hspace{0.1cm}{\footnotesize\ttfamily [7/8]}}
+{\footnotesize\ttfamily \label{plik1_01doxyegn_8cpp_a8fff32c629105ac67900f629161841f7} 
+TEST (\begin{DoxyParamCaption}\item[{Merge\+Sort\+Test}]{}{, }\item[{Reverse\+Sorted}]{}{}\end{DoxyParamCaption})}
+
+
+
+Testuje klasę \doxyref{Merge\+Sort}{p.}{class_merge_sort} z danymi posortowanymi w odwrotnej kolejności. 
+
+\index{plik1 doxyegn.cpp@{plik1 doxyegn.cpp}!TEST@{TEST}}
+\index{TEST@{TEST}!plik1 doxyegn.cpp@{plik1 doxyegn.cpp}}
+\doxysubsubsection{TEST()\hspace{0.1cm}{\footnotesize\ttfamily [8/8]}}
+{\footnotesize\ttfamily \label{plik1_01doxyegn_8cpp_a421083b83ded60e73f15f54639f45937} 
+TEST (\begin{DoxyParamCaption}\item[{Merge\+Sort\+Test}]{}{, }\item[{Single\+Element}]{}{}\end{DoxyParamCaption})}
+
+
+
+Testuje klasę \doxyref{Merge\+Sort}{p.}{class_merge_sort} z pojedynczym elementem. 
+
